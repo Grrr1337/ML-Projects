@@ -11,10 +11,10 @@ One must make sure that has the following Python libraries installed:
 
 ```bash
 pip install numpy matplotlib
-# Running the Code
-Simply run the provided Python script:
 ``` 
 
+### Running the Code
+Simply run the provided Python script:
 ```bash
 python script.py
 ```
