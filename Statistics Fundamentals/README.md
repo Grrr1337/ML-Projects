@@ -55,12 +55,12 @@ Make sure you have Python installed on your machine.
 
 2. Navigate to the project directory:
     ```bash
-    cd statistics-fundamentals-python
+    cd statistics-fundamentals
     ```
 
 3. Run the script:
     ```bash
-    python statistics_demo.py
+    python main.py
     ```
 
 ## Tests
