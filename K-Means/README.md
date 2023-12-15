@@ -8,6 +8,9 @@ This is an implementation of the K-Means clustering algorithm from scratch in Py
 ## Overview
 K-means clustering is employed to find groups in data, with the number of groups represented by the `variable K`. This implementation **randomly initializes centroid points** and iteratively refines their positions to group data points effectively.
 
+### Choosing the Correct "K" Value
+Note that there are strategies for **choosing the correct "K" value**, but it is **not covered** within the scope of this tutorial.
+
 <details>
   <summary><strong>K-Means Clustering: An Overview</strong></summary>
 
@@ -65,18 +68,19 @@ K-means clustering is employed to find groups in data, with the number of groups
 
 ![KMeans3](KMeans3.png)
 
-### Choosing the Correct "K" Value
-Note that there are strategies for choosing the correct "K" value, but it is not covered within the scope of this tutorial.
 
 ## Usage
 
 ### Prerequisites
-Ensure you have the required Python libraries installed:
+One must ensure that has the required Python libraries installed:
 
 ```bash
 pip install numpy matplotlib scikit-learn
 ```
-
+To run the code:
+```bash
+python main.py
+```
 
 ## How it Works
 
